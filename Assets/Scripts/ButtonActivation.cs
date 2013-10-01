@@ -64,6 +64,7 @@ public class ButtonActivation : MonoBehaviour {
 		//Destroy the fire wall & the blocking wall
 		Destroy(GameObject.FindGameObjectWithTag("wall_fire"));		
 		Destroy(GameObject.FindGameObjectWithTag("wall_block"));
+		Destroy (GameObject.FindGameObjectWithTag("firelight2"));
 		Debug.Log ("Middle wall cleared! You can go ahead!");
 	}
 	
